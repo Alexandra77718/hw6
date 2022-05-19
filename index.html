@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Homework_6</title>
+  </head>
+  <body>
+    <main>
+      <div class="form_1">
+        <form
+          action="mailto:alisa1mail@yandex.ru"
+          placeholder="Enter your e-mail"
+          method="post"
+          target="_blank"
+        >
+          <label for="E-mail">E-mail</label>
+          <input type="text" name="my_name" placeholder="enter your name" />
+          <input type="submit" value="Отправить" class="submit" />
+          <input type="reset" value="Очистить форму" />
+        </form>
+      </div>
+      <details>
+        <summary>Типы форм</summary>
+        <p><input type="tel" value="tel" />type_tel</p>
+        <p><input type="radio" value="radio" />type_radio</p>
+        <p><input type="range" value="range" />type_range</p>
+        <p><input type="checkbox" value="checkbox" />type_checkbox</p>
+        <p><input type="reset" value="reset" />type_reset</p>
+        <p><input type="time" value="time" />type_time</p>
+        <p><input type="date" value="date" />type_date</p>
+        <p><input type="datetime" value="datetime" />type_datetime</p>
+        <p>
+          <input
+            type="datetime-local"
+            value="datetime-local"
+          />type_datetime-local
+        </p>
+        <p>
+          <input
+            type="file"
+            enctype="multipart/form-data"
+            value="file"
+          />type_file
+        </p>
+      </details>
+
+      <form class="form_2" action="#" method="get">
+        <input id="name" /><label for="name">Вариант кода 1</label><br>
+        <label><input type="text" />Вариант кода 2</label>
+        <p>Здесь нужно что-то выбрать</p>
+        <p><input type="radio" value="radio" />1111</p>
+        <p><input type="radio" value="radio" />222</p>
+        <p><input type="radio" value="radio" />3333</p>
+        <p>и здесь нужно что-то выбрать</p>
+        <p><input type="checkbox" value="checkbox" />111</p>
+        <p><input disabled type="checkbox" value="checkbox" />2222</p>
+        <p><input type="checkbox" value="checkbox" />33333</p>
+        <textarea name="text"></textarea>
+        <p>Прикрепить фото</p>
+        <input type="file" name="userphoto" />
+        <p>Выпадающий список</p>
+        <select name="nnnnn">
+          <option value="iiiiii">iiiiiiiii</option>
+          <option value="rrrrr">rrrrrrrr</option>
+          <option value="pppppp">ppppppp</option>
+          <option value="hhhhhh">hhhhhhhh</option>
+          <option value="lllll">lllllll</option>
+          <option selected value="igggggi">igggggi</option>
+        </select>
+        <p>Что сделать с этой информацией</p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+      </form>
+    </main>
+  </body>
+</html>

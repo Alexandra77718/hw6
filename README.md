@@ -21,4 +21,5 @@ name, placeholder, value; <details> , <summary>;
 ```
 Можно ли использовать одновременно max-width и min-width?
 Как сделать шрифт для кнопок? (задавала для <button> -  не применилось)
+Разобраться с псевдоклассами :before и :after.
 ```

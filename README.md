@@ -16,6 +16,8 @@ name, placeholder, value; <details> , <summary>;
 ```
 - У background-image не получилось задать opasity - он применился 
 ко всему блоку, включая подписи к полям ввода.
+
+Ещё не поработала с flex-box!!!
 ```
 ❓❓❓ВОПРОСЫ❓❓❓
 ```
